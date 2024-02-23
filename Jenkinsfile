@@ -21,4 +21,15 @@ pipeline {
 	}
 		}
 	}
+	post {
+		alwase{
+			echo 'I am run always'
+		}
+		success {
+			echo 'I run when you are successfull'
+		}
+		failure {
+			echo 'I run when you fail'
+		}
+	}
 }
