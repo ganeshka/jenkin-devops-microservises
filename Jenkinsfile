@@ -22,7 +22,7 @@ pipeline {
 		}
 	}
 	post {
-		alwase{
+		always{
 			echo 'I am run always'
 		}
 		success {
