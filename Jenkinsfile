@@ -32,4 +32,8 @@ pipeline {
 			echo 'I run when you fail'
 		}
 	}
+	email 
+	{
+		to='gnkangne@gmail.com'
+	}
 }
